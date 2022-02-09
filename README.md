@@ -1,5 +1,5 @@
 # Machin Learning Onine Course 2022
-> This project is template for machin learning online courses event, which is builed from scratch using CSS and JavaScript without using any framework or prebuiled design. A description video of this project can be found at [Link to description of the project video]()
+> This project is template for machin learning online courses event, which is builed from scratch using CSS and JavaScript without using any framework or prebuiled design. A description video of this project can be found at [Link to description of the project video](https://www.loom.com/share/4bf898ebe10b4fa19d5a5a059cecc1b1)
 
 ![screenshot](./images/projectScreenshot/desktop.png)
 > image1: A screenshot of desktop display of this project
@@ -32,7 +32,7 @@ this template is adaptable with all browsers including : Chrome, Firefox , Opera
 ## Live Demo
 
 - [GitHub pages](https://zahraarshia.github.io/machin-learning-online-courses/)
-- [Live Demo]()
+- [Live Demo](https://raw.githack.com/ZahraArshia/machin-learning-online-courses/features/index.html)
 
 ## 👤 Author
 ### Zahra Arshia
