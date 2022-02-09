@@ -35,9 +35,10 @@ this template is adaptable with all browsers including : Chrome, Firefox , Opera
 - [Live Demo]()
 
 ## 👤 Author
-- [GitHub:](https://github.com/zahrArshia)
-- [Twitter:](https://twitter.com/zahraarshia)
-- [LinkedIn:](https://www.linkedin.com/in/zahra-arshia-89247210a/)
+### Zahra Arshia
+- [GitHub](https://github.com/zahrArshia)
+- [Twitter](https://twitter.com/zahraarshia)
+- [LinkedIn](https://www.linkedin.com/in/zahra-arshia-89247210a/)
 
 ## 🤝 Contributing
 
