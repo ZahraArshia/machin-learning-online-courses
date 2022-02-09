@@ -1,30 +1,3 @@
-const programs = [
-  {
-    imgURL: 'images/lecture.png',
-    title: 'lecture',
-    description: 'Listen to all speakers from various regions about the machin learning algorithms .',
-  },
-  {
-    imgURL: 'images/CC.png',
-    title: 'Exhibition',
-    description: 'Appriciate various innovations, tehnologies and new ideas from various AI fields .',
-  },
-  {
-    imgURL: 'images/forum.png',
-    title: 'Forum',
-    description: 'Have the time to share our thoughts and opinions with experts for each topic.',
-  },
-  {
-    imgURL: 'images/workshop.png',
-    title: 'Workshop',
-    description: 'Try creating your own work using open source licenses rather than just whatching.',
-  },
-  {
-    imgURL: 'images/ignite.png',
-    title: 'networking',
-    description: 'Get opportunities to freely network with experts and students all around the world.',
-  },
-];
 const lecturers = [
   {
     picURL: 'images/avatar/Picture1.png',
@@ -65,15 +38,7 @@ const lecturers = [
 ];
 
 window.onload = () => {
-  programs.forEach((program) => {
-    document.querySelector('.programCards').innerHTML += `
-        <div class="card">
-            <img class="program-img" src="${program.imgURL}" alt="${program.title}">
-            <div class="program-title"><h3>${program.title}</h3></div>
-            <p class="program-des">${program.description}</p>
-        </div>`;
-  });
-  lecturers.forEach((lecture) => {
+    lecturers.forEach((lecture) => {
     document.querySelector('.lecturersCards').innerHTML += `
         <div class="card2">
             <img class="lecturerPic" src="${lecture.picURL}" alt="${lecture.name}">
