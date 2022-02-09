@@ -1,0 +1,547 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav1 {
+  display: none;
+  flex-direction: row-reverse;
+  background-color: #272a31 ;
+  height: 40px;
+  padding-right: 10%;
+  
+}
+
+.nav1 a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.nav1 a:hover {
+  color: #ec5242;
+}
+
+.nav1 button {
+  border: none;
+  background: none;
+}
+
+.nav2 {
+  display: none;
+  flex-direction:row-reverse;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.nav2Content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 400px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-left: 6%;
+}
+
+.nav-item:hover {
+  color: #ec5242;
+}
+.navLogo {
+  display: none;
+}
+
+#bordered-link {
+  min-width: 110px;
+  border: 2px solid #ec5242;
+  padding: 2%;
+}
+
+
+.opening {
+  background-image: url("../images/Website-Design-Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 920px;
+}
+
+.helloText {
+  padding-top: 15%;
+  padding-left: 10%;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  color: #ec5242;
+
+}
+
+.title {
+  padding-left: 10%;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/it.jpg");
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.textBox {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  background-color: #d3d3d3;
+  border: 2px solid white;
+  margin: 5%;
+  padding: 3%;
+}
+
+.abou-textBox {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  background-color: white;
+  border: 2px solid #d3d3d3;
+  padding: 3%;
+  max-width: 850px;
+  margin-top: 7%;
+}
+
+.dateText {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 22px;
+  color: #d3d3d3;
+  margin-left: 5%;
+
+}
+
+.locationText {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  font-size: medium;
+  margin-left: 5%;
+}
+
+.navbar-toggler {
+  margin: 5%;
+}
+
+.mainProgram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/program-bg.jpg");
+}
+
+.mainProgram a {
+  display: none;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.programTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 5%;
+}
+
+.lecturerTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #272a31;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.red-line {
+  height: 2px;
+  width: 8%;
+  background-color: #ec5242;
+}
+
+.grey-line {
+  height: 2px;
+  width: 15%;
+  background-color:#d3d3d3;
+}
+
+.programCards {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #5f5f5f50;  
+  padding: 3%;
+  text-align: center;
+  height: 100%;
+}
+
+.card:hover {
+  border: 2px solid white;
+}
+
+.program-img {
+  margin: 2%;
+}
+
+.program-title {
+  display: flex;
+  min-width: 130px;
+}
+
+.program-title h3 {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.program-des {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+  margin-left: 5%;
+}
+
+.join-btn {
+  border: none;
+  background-color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  min-height: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+.lecturers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  padding-bottom: 2%;
+}
+
+.lecturersCards {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+
+.lecturer-name {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #272a31;
+}
+
+.lecturer-position {
+  font-family: 'Lato', sans-serif;
+  font-size:medium;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.lecturer-detail {
+  font-family: 'Lato', sans-serif;
+  color: #3b3c3f;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+  align-content: center;
+  background-color: white;
+  padding: 1%;
+  border-radius: 1%;
+}
+
+.lecturer-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-top: none;
+  align-content: center;
+}
+
+.lecturerPic {
+  width: 150px;
+  height: 150px;
+  margin: 2%;
+}
+
+.partner {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+}
+
+.partner-list {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-width: 600px;;
+}
+
+.partner-list a {
+  font-family: 'Cocogoose', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #7f8081;
+}
+
+#whiteLicense {
+  display: none;
+}
+
+#darkLicense {
+  background-color: #272a31;
+  color: white;
+  padding: 5%;
+}
+
+.mobile-menu {
+  border: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-menu-list {
+  display: none;
+  flex-direction: column;
+  padding: 3%;
+  left: 0;
+  right: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #d3d3d350;
+}
+
+#about-menu {
+  background-color: #ec5242;
+}
+
+.mobile-menu-list a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.mobile-menu-list a:hover {
+  color: #ec5242;
+}
+
+#about-menu a:hover {
+  color: #272a31;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/about-bg.png");
+  background-repeat: no-repeat;
+  margin: 10%;
+}
+
+.aboutTitle {
+  font-family: 'Cocogoose', sans-serif;
+  color: #ec5242;
+  font-size: 50px;
+  text-align: center;
+  margin-top: -3%;
+}
+
+.about-normal-text {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #3b3c3f;
+}
+
+.about a {
+  color: #3b3c3f;
+}
+
+.logo-section {
+  border-bottom: 1px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-border {
+  padding: 2%;
+  border: 2px solid #d3d3d3;
+  margin: 3%;
+ }
+
+#ml-logo {
+  max-width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photoes {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 5%;
+}
+
+.photo-fram {
+  position: relative;
+}
+
+.photo {
+  max-width: 100%;
+}
+
+.layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 38, 0, 0.76);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.layer:hover {
+  display: none;
+}
+
+.photo-caption {
+  text-align: center;
+  font-family: 'Cocogoose', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .nav1 {
+    display: flex;
+  }
+
+  .nav2 {
+    display: flex;
+  }
+
+  .navLogo {
+    display: block;
+    max-height: 80px;
+    max-width: 120px;
+  }
+
+  .opening {
+    min-height: 1080px;
+  }
+
+  .title {
+    font-size: 80px;
+  }
+
+  .textBox , .dateText , .locationText {
+    margin-left: 10%;
+    max-width: 700px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .programCards {
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(5, 1fr);
+
+  }
+
+  #whiteLicense {
+    display: block;
+    padding: 5%;
+    padding-left: 10%;
+  }
+
+  #darkLicense {
+    padding-left: 10%;
+  }
+
+  .join-btn{
+    display: none;
+  }
+
+  .mainProgram a {
+    display: block;
+  }
+
+  .card {
+    flex-direction: column;
+    height: 250px;  
+  }
+
+  .program-title {
+    justify-content: center;
+  }
+
+  .lecturersCards { 
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+   .partner {
+     display: flex;
+   }
+
+   .nav-link:hover {
+     color: #ec5242;
+   }
+
+   .photoes {
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
