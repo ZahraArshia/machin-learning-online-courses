@@ -93,10 +93,10 @@ const list = document.querySelector('.mobile-menu-list');
 function toggleMenu() {
   if (list.style.display === 'flex') {
     list.style.display = 'none';
-    menu.innerHTML = `<img src='https://img.icons8.com/ios/50/000000/menu--v4.png'/>`;
+    menu.innerHTML = '<img src=\'https://img.icons8.com/ios/50/000000/menu--v4.png\'/>';
   } else {
     list.style.display = 'flex';
-    menu.innerHTML = `<img src='https://img.icons8.com/ios/50/000000/delete-sign--v1.png'/>`;
+    menu.innerHTML = '<img src=\'https://img.icons8.com/ios/50/000000/delete-sign--v1.png\'/>';
   }
 }
 menu.addEventListener('click', toggleMenu);
