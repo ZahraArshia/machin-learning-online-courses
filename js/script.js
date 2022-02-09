@@ -38,7 +38,7 @@ const lecturers = [
 ];
 
 window.onload = () => {
-    lecturers.forEach((lecture) => {
+  lecturers.forEach((lecture) => {
     document.querySelector('.lecturersCards').innerHTML += `
         <div class="card2">
             <img class="lecturerPic" src="${lecture.picURL}" alt="${lecture.name}">
