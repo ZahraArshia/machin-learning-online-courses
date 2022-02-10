@@ -68,6 +68,7 @@ body {
   min-width: 110px;
   border: 2px solid #ec5242;
   padding: 2%;
+  color: #ec5242;
 }
 
 .opening {
@@ -341,7 +342,7 @@ body {
   justify-content: space-between;
   margin-top: 5%;
   margin-bottom: 5%;
-  min-width: 600px;
+  min-width: 700px;
 }
 
 .partner-item {
@@ -350,6 +351,7 @@ body {
   font-size: 25px;
   color: #7f8081;
   cursor: pointer;
+  margin: 3%;
 }
 
 .partner-item:hover {
@@ -367,16 +369,28 @@ body {
 }
 
 #darkLicense {
+  display: none;
   background-color: #272a31;
   color: white;
   padding: 5%;
   flex-direction: row;
+  max-width: 100%;
 }
 
 .licence-text {
   font-family: 'Lato', sans-serif;
   font-size: medium;
   color: #7f8081;
+  max-width: 100%;
+}
+
+.mobile-license {
+  display: flex;
+  flex-direction: row;
+}
+
+#licence-mobile {
+  padding-top: 3%;
 }
 
 .mobile-menu {
@@ -508,6 +522,20 @@ body {
   color: #3b3c3f;
 }
 
+.mobile-partner {
+  background-color: #272a31;
+}
+
+.mobile-partner-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-partner-list {
+  margin: 5%;
+}
+
 @media screen and (min-width: 768px) {
   .nav1 {
     display: flex;
@@ -599,5 +627,13 @@ body {
 
   .photoes {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mobile-partner {
+    display: none;
+  }
+
+  .mobile-license {
+    display: none;
   }
 }
