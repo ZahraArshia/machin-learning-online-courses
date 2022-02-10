@@ -50,6 +50,25 @@ window.onload = () => {
             </div>
         </div>`;
   });
+  document.querySelector('.lecturersCards-preview').innerHTML = `
+  <div class="card2">
+      <img class="lecturerPic" src="${lecturers[0].picURL}" alt="${lecturers[0].name}">
+      <div class="lecturer-info">
+      <h3 class="lecturer-name">${lecturers[0].name}</h3>
+      <h4 class="lecturer-position">${lecturers[0].position}</h4>
+      <div class="grey-line"></div>
+      <p class="lecturer-detail">${lecturers[0].details}</p>
+      </div>
+  </div>
+  <div class="card2">
+      <img class="lecturerPic" src="${lecturers[1].picURL}" alt="${lecturers[1].name}">
+      <div class="lecturer-info">
+      <h3 class="lecturer-name">${lecturers[1].name}</h3>
+      <h4 class="lecturer-position">${lecturers[1].position}</h4>
+      <div class="grey-line"></div>
+      <p class="lecturer-detail">${lecturers[1].details}</p>
+      </div>
+  </div>`;
 };
 
 const menu = document.querySelector('.mobile-menu');
@@ -70,17 +89,16 @@ const desktopCards = document.querySelector('.lecturersCards');
 const mobileCards = document.querySelector('.lecturersCards-preview');
 const btn = document.querySelector('.more-btn');
 
-function showCards(){
+function showCards() {
   if (desktopCards.style.display === 'grid') {
     desktopCards.style.display = 'none';
     mobileCards.style.display = 'block';
-    btn.innerHTML = `More <span> <i class="fa fa-angle-down"></i></span>`
-  }
-  else {
+    btn.innerHTML = 'More <span> <i class="fa fa-angle-down"></i></span>';
+  } else {
     mobileCards.style.display = 'none';
     desktopCards.style.display = 'grid';
-    btn.innerHTML = `Less <span> <i class="fa fa-angle-up"></i></span>`
+    btn.innerHTML = 'Less <span> <i class="fa fa-angle-up"></i></span>';
   }
 }
 
-btn.addEventListener('click',showCards);
+btn.addEventListener('click', showCards);
