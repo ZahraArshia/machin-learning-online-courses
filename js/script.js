@@ -78,7 +78,7 @@ function showCards() {
   } else {
     mobileCards.style.display = 'none';
     desktopCards.style.display = 'grid';
-    btn.innerHTML = 'Less <span> <i class="fa fa-angle-up"></i></span>'
+    btn.innerHTML = 'Less <span> <i class="fa fa-angle-up"></i></span>';
   }
 }
 
