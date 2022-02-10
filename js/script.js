@@ -50,7 +50,6 @@ window.onload = () => {
             </div>
         </div>`;
   });
-  
   document.querySelector('.lecturersCards-preview').innerHTML = `
   <div class="card2">
       <img class="lecturerPic" src="${lecturers[0].picURL}" alt="${lecturers[0].name}">
