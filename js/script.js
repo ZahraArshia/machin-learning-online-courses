@@ -70,17 +70,16 @@ const desktopCards = document.querySelector('.lecturersCards');
 const mobileCards = document.querySelector('.lecturersCards-preview');
 const btn = document.querySelector('.more-btn');
 
-function showCards(){
+function showCards() {
   if (desktopCards.style.display === 'grid') {
     desktopCards.style.display = 'none';
     mobileCards.style.display = 'block';
-    btn.innerHTML = `More <span> <i class="fa fa-angle-down"></i></span>`
-  }
-  else {
+    btn.innerHTML = 'More <span> <i class="fa fa-angle-down"></i></span>';
+  } else {
     mobileCards.style.display = 'none';
     desktopCards.style.display = 'grid';
-    btn.innerHTML = `Less <span> <i class="fa fa-angle-up"></i></span>`
+    btn.innerHTML = 'Less <span> <i class="fa fa-angle-up"></i></span>'
   }
 }
 
-btn.addEventListener('click',showCards);
+btn.addEventListener('click', showCards);
